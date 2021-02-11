@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XMLTEXTO ruta_img="imagenes/clientes/">
+		<item>
+			<pos x="65" y="98" />
+			<nombre><![CDATA[nombre 1]]></nombre>
+			<img ancho="75" alto="75"><![CDATA[foto]]></img>
+			<dir><![CDATA[sdf]]></dir>
+			<antiguedad><![CDATA[sdaf]]></antiguedad>
+			<cantidad><![CDATA[sdfasdf]]></cantidad>
+			<area><![CDATA[asdfasdf]]></area>
+			<especialidad><![CDATA[asdfsadf]]></especialidad>
+			<terminales><![CDATA[asdf]]></terminales>
+			<volumen_negocios><![CDATA[asdfsadf]]></volumen_negocios>
+			<datos_extras><![CDATA[asdfsadf]]></datos_extras>
+		</item>
+		<item>
+			<pos x="50" y="120" />
+			<nombre><![CDATA[nombre 2]]></nombre>
+			<img ancho="75" alto="75"><![CDATA[foto]]></img>
+			<dir><![CDATA[sdf]]></dir>
+			<antiguedad><![CDATA[sdaf]]></antiguedad>
+			<cantidad><![CDATA[sdfasdf]]></cantidad>
+			<area><![CDATA[asdfasdf]]></area>
+			<especialidad><![CDATA[asdfsadf]]></especialidad>
+			<terminales><![CDATA[asdf]]></terminales>
+			<volumen_negocios><![CDATA[asdfsadf]]></volumen_negocios>
+			<datos_extras><![CDATA[asdfsadf]]></datos_extras>
+		</item>
+
+</XMLTEXTO>

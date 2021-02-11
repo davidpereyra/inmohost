@@ -1,0 +1,183 @@
+	<style>
+		body {  
+		background-color: #E0E4E4 !important;
+		}
+		input:disabled {
+				background: #c9c9c9 !important;
+				border-color: #c9c9c9 !important;
+		}
+		.row {
+		  display: -ms-flexbox;
+		  display: flex;
+		  -ms-flex-wrap: wrap;
+		  flex-wrap: wrap;
+		  margin-right: -15px;
+		  margin-left: -15px;
+		}
+
+		.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+		.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+		.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+		.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+		.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+		.col-xl-auto {
+		  position: relative;
+		  width: 100%;
+		  padding-right: 15px;
+		  padding-left: 15px;
+		}
+		.col-3 {
+		  -ms-flex: 0 0 25%;
+		  flex: 0 0 25%;
+		  max-width: 25%;
+		}	
+		.btnok {
+			background-color: #FF9900;
+			color: black;
+			border-color: #FF9900;
+		}
+		.btnok:hover {
+			background:#FF9900 !important;
+			color: white;
+		}
+		.btn-save {
+			background-color: #478A99;
+			border-color:  #478A99; 
+			width: 250px;
+			font-size: 25px;
+			margin-left: 40%;
+			color: white;
+		}
+		.btn-save:hover {
+			background:#146f82 !important;
+		}
+		.demo-imgn {
+			width: 100px;
+			height: 100px;
+		}
+		.imgcheck {
+		    position: relative !important;
+		    width: 150px;
+		    height: 150px;
+		}
+		.checkeable2 input {
+			display: none !important;
+		}
+		.checkeable2 img {
+		    position: absolute !important;
+		    width: 110px !important;
+		    height: 30px !important;
+		    right: 2px !important;
+		}
+		.checkeable2 input:checked  + img {
+			margin: 0px !important;
+		    box-sizing:border-box !important;
+		    display:block !important;
+		  	width: 110px !important;
+		  	height: 30px !important;
+		    padding-bottom: 30px !important; /*El padding debe de ser igual al alto de la imagen nueva,*/
+		    background: url(../img/selected.png) !important;
+		    overflow:hidden !important;
+		}
+		.rowlbl {
+			font-size: 18px;
+			vertical-align: middle;
+			text-align: center; 
+		}
+		.col-img {
+	        padding-right: 0px !important; 
+	        padding-left: 0px !important;
+	    }
+		.rowinp {
+			font-size: 18px;
+		}
+		.thumb {
+			width: 100px;
+			height: 100px; 
+		}	
+
+		@media(min-width: 300px) AND (max-width: 700px){
+
+		    .container{
+		        width: 100%; 
+		    }
+		    .container button {
+		        width: 100%; 
+		    }
+		    .imgcheck {
+		        position: relative;
+		        width: 120px;
+		        height: 120px;
+		    }
+		    .checkeable2 img {
+			    position: absolute !important;
+			    width: 110px !important;
+			    height: 30px !important;
+			
+			}
+			.checkeable2 input:checked  + img {
+				margin: 0px !important;
+			    box-sizing:border-box !important;
+			    display:block !important;
+			  	width: 110px !important;
+			  	height: 30px !important;
+			
+			    padding-bottom: 30px !important; /*El padding debe de ser igual al alto de la imagen nueva,*/
+			    background: url(./img/selected.png) !important;
+			    overflow:hidden !important;
+			}
+
+		    .col-img {
+
+		    	flex: 0 0 50%;
+	    		/*flex-grow: 0;
+	    		flex-shrink: 0;
+	    		flex-basis: 50%;
+	    		*/
+	    		max-width: 50%;
+		        padding-right: 0px !important; 
+		        padding-left: 0px !important;
+		    }
+	
+		    .btn-save {
+		        background-color: #21c648 !important;
+		        border-color:  #21c648 !important; 
+		        width: 80% ;
+		        color: #fff;
+		        margin-top: 5px;
+		    }
+		    .btn-save:hover {
+		        background:#146f82 !important;
+		    }
+   
+		}
+		@media(min-width: 600px) AND (max-width: 768px){
+		    .imgcheck {
+		        position: relative;
+		        width: 120px;
+		        height: 120px;
+
+		    }
+
+		    .col-img {
+
+		    	flex: 0 0 25%;
+	    		/*flex-grow: 0;
+	    		flex-shrink: 0;
+	    		flex-basis: 50%;
+	    		*/
+	    		max-width: 25%;
+		        padding-right: 0px !important; 
+		        padding-left: 0px !important;
+		    }
+		    .btn-save {
+		        background-color: #21c648 !important;
+		        border-color:  #21c648 !important; 
+		        width: 80% ;
+		        color: #fff;
+		    }
+		    .btn-save:hover {
+		        background:#146f82 !important;
+		    }
+		}	
+	</style>

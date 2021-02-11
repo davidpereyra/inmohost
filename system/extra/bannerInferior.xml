@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+	<PHOTOSNUMBER>
+	      <imageName><![CDATA[banners/casamagna.swf]]></imageName>
+	      <imageName><![CDATA[banners/civit521.swf]]></imageName>    
+	      <imageName><![CDATA[banners/karokuron.swf]]></imageName>
+	      <imageName><![CDATA[banners/lavacherie.swf]]></imageName>
+	      <imageName><![CDATA[banners/premiun.swf]]></imageName>
+	      <imageName><![CDATA[banners/theplaza.swf]]></imageName>
+	      <imageName><![CDATA[banners/laderas.swf]]></imageName>
+
+	</PHOTOSNUMBER>
+	<TIME>
+	      <time>10</time>             
+	      <color></color>   
+	      <alpha>3</alpha>
+	      <random>true</random>   	  
+	</TIME>
+</options>

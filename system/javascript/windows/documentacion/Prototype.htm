@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" dir="ltr" lang="es"><head>
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<meta name="keywords" content="Prototype,AJAX,ActiveX,Adobe Flash,Array,Atributo,CSS,DHTML,DOM,Error 404,Form">
+		<link rel="shortcut icon" href="http://es.wikipedia.org/favicon.ico">
+		<link rel="search" type="application/opensearchdescription+xml" href="http://es.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (Español)">
+		<link rel="copyright" href="http://www.gnu.org/copyleft/fdl.html"><title>Prototype - Wikipedia, la enciclopedia libre</title>
+		
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins-1.5/monobook/main.css?61"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="Prototype_files/commonPrint.css">
+		<link rel="stylesheet" type="text/css" media="handheld" href="Prototype_files/handheld.css"><!--[if lt IE 5.5000]><style type="text/css">@import "/skins-1.5/monobook/IE50Fixes.css?61";</style><![endif]--><!--[if IE 5.5000]><style type="text/css">@import "/skins-1.5/monobook/IE55Fixes.css?61";</style><![endif]--><!--[if IE 6]><style type="text/css">@import "/skins-1.5/monobook/IE60Fixes.css?61";</style><![endif]--><!--[if IE 7]><style type="text/css">@import "/skins-1.5/monobook/IE70Fixes.css?61";</style><![endif]--><!--[if lt IE 7]><script type="text/javascript" src="/skins-1.5/common/IEFixes.js?61"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins-1.5";
+var wgArticlePath = "/wiki/$1";
+var wgScriptPath = "/w";
+var wgServer = "http://es.wikipedia.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Prototype";
+var wgTitle = "Prototype";
+var wgArticleId = "393639";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "es";
+var wgContentLanguage = "es";
+var wgBreakFrames = false;
+var wgCurRevisionId = "7939057";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="Prototype_files/wikibits.js"><!-- wikibits js --></script>
+		<script type="text/javascript" src="Prototype_files/index_003.php"><!-- site js --></script><script type="text/javascript" src="Prototype_files/index.php"></script><style type="text/css">#interProject {display: none; speak: none;} #p-tb .pBody {padding-right: 0;}</style><script type="text/javascript" src="Prototype_files/index_002.php"></script><script type="text/javascript" src="Prototype_files/index_004.php"></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/w/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=2678400";
+@import "/w/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=2678400";
+@import "/w/index.php?title=-&action=raw&gen=css&maxage=2678400";
+/*]]>*/</style><!-- Head Scripts -->
+		
+		<script type="text/javascript" src="Prototype_files/ajax.js"></script></head><body class="mediawiki ns-0 ltr page-Prototype">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Prototype</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">De Wikipedia, la enciclopedia libre</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Saltar a <a href="#column-one">navegación</a>, <a href="#searchInput">búsqueda</a></div>			<!-- start content -->
+			<p><b>Prototype</b> es un <a href="http://es.wikipedia.org/wiki/Framework" title="Framework">framework</a> basado en <a href="http://es.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a>
+que se orienta al desarrollo sencillo y dinámico de aplicaciones web.
+Es una herramienta que implementa las técnicas AJAX y su potencial es
+aprovechado al máximo cuando se desarrolla con Ruby On Rails.</p>
+<p>PROTOTYPE Framework <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a></p>
+<table id="toc" class="toc" summary="Tabla de contenidos">
+<tbody><tr>
+<td>
+<div id="toctitle">
+<h2>Tabla de contenidos</h2>
+ <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">ocultar</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#INTRODUCCI.C3.93N."><span class="tocnumber">1</span> <span class="toctext">INTRODUCCIÓN.</span></a>
+<ul>
+<li class="toclevel-2"><a href="#T.C3.89CNICA_AJAX"><span class="tocnumber">1.1</span> <span class="toctext">TÉCNICA AJAX</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#PROTOTYPE."><span class="tocnumber">2</span> <span class="toctext">PROTOTYPE.</span></a>
+<ul>
+<li class="toclevel-2"><a href="#INSTALACION"><span class="tocnumber">2.1</span> <span class="toctext">INSTALACION</span></a></li>
+<li class="toclevel-2"><a href="#FUNCIONES_PROTOTYPE."><span class="tocnumber">2.2</span> <span class="toctext">FUNCIONES PROTOTYPE.</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_.24.28.29"><span class="tocnumber">2.2.1</span> <span class="toctext">Función $()</span></a></li>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_.24A.28.29"><span class="tocnumber">2.2.2</span> <span class="toctext">Función $A()</span></a></li>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_.24H.28.29"><span class="tocnumber">2.2.3</span> <span class="toctext">Función $H()</span></a></li>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_.24F.28.29"><span class="tocnumber">2.2.4</span> <span class="toctext">Función $F()</span></a></li>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_document.getElementsByClassName.28.29"><span class="tocnumber">2.2.5</span> <span class="toctext">Función document.getElementsByClassName()</span></a></li>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_.24.24.28.29"><span class="tocnumber">2.2.6</span> <span class="toctext">Función $$()</span></a></li>
+<li class="toclevel-3"><a href="#Funci.C3.B3n_Binding"><span class="tocnumber">2.2.7</span> <span class="toctext">Función Binding</span></a></li>
+<li class="toclevel-3"><a href="#Trabajando_el_DOM"><span class="tocnumber">2.2.8</span> <span class="toctext">Trabajando el DOM</span></a></li>
+<li class="toclevel-3"><a href="#Manejando_Formularios"><span class="tocnumber">2.2.9</span> <span class="toctext">Manejando Formularios</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#PROTOTYPE_Vs..."><span class="tocnumber">2.3</span> <span class="toctext">PROTOTYPE Vs...</span></a></li>
+<li class="toclevel-2"><a href="#PROYECTOS_BASADOS_EN_PROTOTYPE"><span class="tocnumber">2.4</span> <span class="toctext">PROYECTOS BASADOS EN PROTOTYPE</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#ALTERNATIVAS_QUE_EMPLEAN_AJAX"><span class="tocnumber">3</span> <span class="toctext">ALTERNATIVAS QUE EMPLEAN AJAX</span></a></li>
+<li class="toclevel-1"><a href="#CONCLUSI.C3.93N"><span class="tocnumber">4</span> <span class="toctext">CONCLUSIÓN</span></a></li>
+<li class="toclevel-1"><a href="#Enlaces_externos"><span class="tocnumber">5</span> <span class="toctext">Enlaces externos</span></a></li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<script type="text/javascript">
+//<![CDATA[
+ if (window.showTocToggle) { var tocShowText = "mostrar"; var tocHideText = "ocultar"; showTocToggle(); } 
+//]]>
+</script>
+<p><a name="INTRODUCCI.C3.93N." id="INTRODUCCI.C3.93N."></a></p>
+<h2><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=1" title="Editar sección: INTRODUCCIÓN.">editar</a>]</span> <span class="mw-headline">INTRODUCCIÓN.</span></h2>
+<p>Con la <a href="http://es.wikipedia.org/wiki/Web" title="Web">Web</a> 2.0 las técnicas de desarrollo de páginas web necesitaban dar un gran salto. Con esto en mente nació la técnica <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a>,
+que básicamente permite el desarrollo ágil y sencillo de páginas Web,
+esto en relación al desarrollador, y provee al cliente un manera más
+rápida de acceder al servicio que solicita. Prototype es un Framework
+basado en Java Script orientado a proporcionar al desarrollador de
+técnicas AJAX listas para ser usadas. El potencial de Prototype es
+aprovechado al máximo si se desarrolla con Ruby On Rails, esto no
+quiere decir que no se puede usar desde otro lenguaje, solamente que
+demandara un "mayor esfuerzo" en el desarrollo.</p>
+<p><a name="T.C3.89CNICA_AJAX" id="T.C3.89CNICA_AJAX"></a></p>
+<h3><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=2" title="Editar sección: TÉCNICA AJAX">editar</a>]</span> <span class="mw-headline">TÉCNICA AJAX</span></h3>
+<p>Antes de comenzar a desarrollar PROTOTYPE, es necesario presentar el concepto AJAX, debido a que PROTOTYPE emplea <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a>.</p>
+<p>AJAX proviene de Ashyncronous JavaScript And XML. En pocas palabras
+AJAX es una técnica de desarrollo WEB que incorpora varias tecnologías,
+como ser el Java Script y XML, consiguiendo de esta manera una forma de
+navegar rápida, ágil y dinámica.</p>
+<p><br>
+<b>AJAX funciona de la siguiente manera:</b></p>
+<p>1. Usuario provoca un evento</p>
+<p>2. Se crea y configura un objeto <a href="http://es.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a></p>
+<p>3. El objeto <a href="http://es.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a> realiza una llamada al <a href="http://es.wikipedia.org/wiki/Servidor" title="Servidor">servidor</a></p>
+<p>4. La petición se procesa en el <a href="http://es.wikipedia.org/wiki/Servidor" title="Servidor">servidor</a></p>
+<p>5. El <a href="http://es.wikipedia.org/wiki/Servidor" title="Servidor">servidor</a> retorna un documento <a href="http://es.wikipedia.org/wiki/XML" title="XML">XML</a> que contienen el resultado</p>
+<p>6. El objeto <a href="http://es.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a> llama a la función <a href="http://es.wikipedia.org/w/index.php?title=Callback%28%29&amp;action=edit" class="new" title="Callback()">callback()</a> y procesa el resultado</p>
+<p>7. Se actualiza el <a href="http://es.wikipedia.org/wiki/DOM" title="DOM">DOM</a> (Document Object Model)de la página asociado con la petición con el resultado devuelto</p>
+<p><br>
+<b>Las características de XMLHttpRequest son:</b></p>
+<p>• Comunicación GET/POST</p>
+<p>• Documentos pueden ser texto plano/xml</p>
+<p>• Trabaja en background</p>
+<p>• Número limitado de peticiones</p>
+<p>• Permite especificar un manejador para el control de cambios de estado</p>
+<p>• Manejador notifica el estado de la petición:</p>
+<p>• Inicializada</p>
+<p>• Iniciada</p>
+<p>• En proceso de retornar la información</p>
+<p>• Operación completada</p>
+<p><br>
+<b>El Tipo de Respuesta puede ser:</b></p>
+<p>• Documento <a href="http://es.wikipedia.org/wiki/XML" title="XML">XML</a></p>
+<p>• Texto</p>
+<p>• Procesado en el cliente</p>
+<p>• Mostrado directamente</p>
+<p>• <a href="http://es.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></p>
+<p>• Evaluado en JavaScript mediante ‘eval()’</p>
+<p>• <a href="http://es.wikipedia.org/wiki/JSON" title="JSON">JSON</a>, “JavaScript ObjectNotation”:</p>
+<p>• Es un formato ligero para el intercambio de datos</p>
+<p>• Es un subconjunto de la notación literal de objetos de <a href="http://es.wikipedia.org/wiki/Javascript" title="Javascript">Javascript</a> pero no requiere el uso de Javascript</p>
+<p><br>
+<b>Propiedades de <a href="http://es.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a>:</b></p>
+<p>• <a href="http://es.wikipedia.org/w/index.php?title=Onreadystatechange&amp;action=edit" class="new" title="Onreadystatechange">onreadystatechange</a>: El manejador del evento llamado en cada cambio de estado del objeto</p>
+<p>• <a href="http://es.wikipedia.org/w/index.php?title=ReadyState&amp;action=edit" class="new" title="ReadyState">readyState</a>:Indica el estado del objeto o la petición</p>
+<p>• 0 = sin inicializar</p>
+<p>• 1 = cargando</p>
+<p>• 2 = fin de la carga</p>
+<p>• 3 = actualizando la información recibida</p>
+<p>• 4 = Operación completada</p>
+<p>• status: Estado <a href="http://es.wikipedia.org/wiki/HTTP" title="HTTP">HTTP</a> devuelto por el servidor</p>
+<p>• <a href="http://es.wikipedia.org/wiki/Error_404" title="Error 404">Error 404</a> si la página no se encuentra</p>
+<p>• <a href="http://es.wikipedia.org/w/index.php?title=Error_200&amp;action=edit" class="new" title="Error 200">Error 200</a> si todo ha ido bien.</p>
+<p><br>
+<b>Las ventajas de <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a> son:</b></p>
+<p>• Mayor interactividad</p>
+<p>Recuperación asíncrona de datos, reduciendo el tiempo de espera del usuario</p>
+<p>• Facilidad de manejo del usuario</p>
+<p>El usuario tiene un mayor conocimiento de las aplicaciones de escritorio</p>
+<p>• Se reduce el tamaño de la información intercambiada</p>
+<p>• Portabilidad entre plataformas</p>
+<p>No requieren instalación de plugins, appletsde Java, ni ningún otro elemento</p>
+<p>• Código público</p>
+<p><br>
+<b>Las desventajas de AJAX son:</b></p>
+<p><br>
+• Usabilidad: Comportamiento del usuario ante la navegación</p>
+<p>• Botón de volver atrás del navegador</p>
+<p>Empleo de iframes ocultos para almacenar el historial)</p>
+<p>Empleo de fragmento identificador del URL (‘#’) y recuperación mediante JavaScript</p>
+<p>• Problema al agregar marcadores/favoritos en un momento determinado de la aplicación</p>
+<p>Empleo del fragmento identificador del URL (‘#’) y recuperación mediante JavaScript</p>
+<p>• Problemas al imprimir páginas renderizadas dinámicamente</p>
+<p>• Tiempos de respuesta entre la petición del usuario y la respuesta del servidor</p>
+<p>• Empleo de feedback visual para indicar el estado de la petición al usuario</p>
+<p>• JavaScript</p>
+<p>• Requiere que los usuarios tengan el JavaScriptactivado en el navegador</p>
+<p>• En el caso de <a href="http://es.wikipedia.org/w/index.php?title=Internet_Explorer_6&amp;action=edit" class="new" title="Internet Explorer 6">Internet Explorer 6</a> y anteriores, que necesita tener activado el <a href="http://es.wikipedia.org/wiki/ActiveX" title="ActiveX">ActiveX</a> (En <a href="http://es.wikipedia.org/w/index.php?title=Internet_Explorer_7&amp;action=edit" class="new" title="Internet Explorer 7">Internet Explorer 7</a>, se implementa como <a href="http://es.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a> nativo)</p>
+<p>• Como en <a href="http://es.wikipedia.org/wiki/DHTML" title="DHTML">DHTML</a>, debe comprobarse la compatibilidad entre navegadores y plataformas</p>
+<p>Para más información visite: <a href="http://es.wikipedia.org/wiki/AJAX" class="external free" title="http://es.wikipedia.org/wiki/AJAX" rel="nofollow">http://es.wikipedia.org/wiki/AJAX</a></p>
+<p><a name="PROTOTYPE." id="PROTOTYPE."></a></p>
+<h2><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=3" title="Editar sección: PROTOTYPE.">editar</a>]</span> <span class="mw-headline">PROTOTYPE.</span></h2>
+<p>PROTOTYPE (<a href="http://prototype.conio.net/" class="external free" title="http://prototype.conio.net/" rel="nofollow">http://prototype.conio.net/</a>) es un <a href="http://es.wikipedia.org/wiki/Framework" title="Framework">framework</a> desarrollado en JavaScript por <b>Sam Stephenson</b>
+para el desarrollo sencillo y dinámico de páginas WEB. PROTOTYPE nos
+simplifica gran parte del trabajo cuando se pretende desarrollar
+páginas altamente interactivas.</p>
+<p><br></p>
+<hr>
+<p><a name="INSTALACION" id="INSTALACION"></a></p>
+<h3><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=4" title="Editar sección: INSTALACION">editar</a>]</span> <span class="mw-headline">INSTALACION</span></h3>
+<p>Para comenzar a trabajar con PROTOTYPE es necesario obtener el framework, para ello deben dirigirse al sitio <a href="http://prototype.conio.net/" class="external free" title="http://prototype.conio.net/" rel="nofollow">http://prototype.conio.net/</a> y descargar prototype.js y para usarlo deben hacer lo siguiente:</p>
+<p>• Enlazar en la página con la etiqueta <b>&lt;script&gt;.</b></p>
+<pre>               &lt;script type="text/JavaScript" src="path/to/prototype.js"&gt;&lt;/script&gt;
+</pre>
+<p><b>NOTA:</b> si emplean <i><b>Ruby On Rails</b></i> no es necesario
+descargar prototype.js, la librería viene incluida. Para hacer uso de
+ello simplemente se lo incluye dentro de la las etiquetas <b>&lt;head&gt;: &lt;%= javascript_include_tag 'prototype' %&gt;</b> Aquí ya podemos apreciar que entre Ruby y Prototype forman un gran "equipo"</p>
+<p><br></p>
+<hr>
+<p><a name="FUNCIONES_PROTOTYPE." id="FUNCIONES_PROTOTYPE."></a></p>
+<h3><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=5" title="Editar sección: FUNCIONES PROTOTYPE.">editar</a>]</span> <span class="mw-headline">FUNCIONES PROTOTYPE.</span></h3>
+<p>Ahora que ya lo tenemos instalado es hora de empezar a usar
+PROTOTYPE. Prototype dispone de funciones sencillas para proporcionar
+ayuda a la hora de escribir los script.</p>
+<hr>
+<p><a name="Funci.C3.B3n_.24.28.29" id="Funci.C3.B3n_.24.28.29"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=6" title="Editar sección: Función $()">editar</a>]</span> <span class="mw-headline"><b>Función $()</b></span></h4>
+<p>La <b>Función $()</b> es bastante útil, al principio puede parecer un poco abstracta, esta función es un atajo a la función del <a href="http://es.wikipedia.org/wiki/DOM" title="DOM">DOM</a> <i><b>document.getElementById()</b></i>, Un ejemplo para explicarlo.</p>
+<p><br>
+&lt;div id = "diego" &gt;hola Prototype!&lt;/div&gt;</p>
+<p><br>
+&lt;button onclick = "Hacer();" Id = "Mauricio"&gt; clic &lt;/button&gt;</p>
+<p><br>
+&lt;script&gt; function hacer(){var elemento = $('diego');
+elemento.innerHTML = 'Saludos!'; elemento.style.color = 'blue';}
+&lt;/script&gt;</p>
+<p><br>
+La <i><b>función $()</b></i>, puede recibir el <a href="http://es.wikipedia.org/wiki/Id" title="Id">id</a> del elemento, o puede recibir el propio elemento, y si recibe más de un elemento devuelve un Array (Arreglo) de elementos.</p>
+<hr>
+<p><a name="Funci.C3.B3n_.24A.28.29" id="Funci.C3.B3n_.24A.28.29"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=7" title="Editar sección: Función $A()">editar</a>]</span> <span class="mw-headline"><b>Función $A()</b></span></h4>
+<p>Esta función convierte cualquier <a href="http://es.wikipedia.org/wiki/Par%C3%A1metro" title="Parámetro">parámetro</a> en un <a href="http://es.wikipedia.org/wiki/Objeto" title="Objeto">objeto</a> <a href="http://es.wikipedia.org/wiki/Array" title="Array">Array</a>, pero el objeto array de Prototype no es exactamente como el array de <a href="http://es.wikipedia.org/wiki/Javascript" title="Javascript">javascript</a>,
+ya que posee una extensión llamada Enumerable, la cual es una copia del
+lenguaje de programación Ruby, dándole mucha más versatilidad a
+JavaScript. Un Ejemplo simple.</p>
+<p><br>
+&lt;div id="Diego"&gt; Hola a Todos! &lt;/div&gt; &lt;div id="Mauricio"&gt; Hola! &lt;/div&gt; &lt;button onclick="Arreglo()";</p>
+<p><br>
+&lt;script&gt; Function Arreglo() {var
+Lista=document.getElementsByTagName('div); var Arreglo = $A(Lista);
+Arreglo.each(function(el, indice) el.innerHTML = indice + ':' +
+'divider' + el.id; el.style.color = 'blue';) }; &lt;/script&gt;</p>
+<p><br></p>
+<hr>
+<p><a name="Funci.C3.B3n_.24H.28.29" id="Funci.C3.B3n_.24H.28.29"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=8" title="Editar sección: Función $H()">editar</a>]</span> <span class="mw-headline"><i><b>Función $H()</b></i></span></h4>
+<p>Convierte un <a href="http://es.wikipedia.org/wiki/Objeto" title="Objeto">objeto</a> en un <a href="http://es.wikipedia.org/wiki/Hash" title="Hash">hash</a> enumerable</p>
+<p>&lt;div id="dponce"&gt;Hola a Todos!! &lt;/div&gt; &lt;button
+onclick="duh();" id="mponce"&gt;clic&lt;/button&gt; &lt;script&gt;
+function duh() {var ObjetoUsuario = {id: 1, login: "dponce", email:
+"diego.mauricio.ponce@gmail.com"}; // convertimos el objeto a un HASH
+var el_hash = $H(ObjetoUsuario); $('dponce').innerHTML =
+el_hash.toQueryString(); } &lt;/script&gt;</p>
+<p><br></p>
+<hr>
+<p><a name="Funci.C3.B3n_.24F.28.29" id="Funci.C3.B3n_.24F.28.29"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=9" title="Editar sección: Función $F()">editar</a>]</span> <span class="mw-headline"><b>Función $F()</b></span></h4>
+<p>Toma un <a href="http://es.wikipedia.org/w/index.php?title=ID&amp;action=edit" class="new" title="ID">ID</a> y devuelve el valor de cualquier campo de <a href="http://es.wikipedia.org/wiki/Formulario" title="Formulario">formulario</a>, por ejemplo, un menú select como este:</p>
+<p><br>
+&lt;select name="ciudad" id="ciudad"&gt; &lt;option
+selected="Seleccionar" value="SE"&gt;Santiago Del Estero&lt;/option&gt;
+&lt;option value="AR"&gt;Argentina&lt;/option&gt; ... &lt;/select&gt;
+$F('Ciudad') // 'SE'</p>
+<p><br></p>
+<hr>
+<p><a name="Funci.C3.B3n_document.getElementsByClassName.28.29" id="Funci.C3.B3n_document.getElementsByClassName.28.29"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=10" title="Editar sección: Función document.getElementsByClassName()">editar</a>]</span> <span class="mw-headline"><b>Función document.getElementsByClassName()</b></span></h4>
+<p>Recibe una clase <a href="http://es.wikipedia.org/wiki/CSS" title="CSS">CSS</a> como <a href="http://es.wikipedia.org/wiki/Par%C3%A1metro" title="Parámetro">parámetro</a> y devuelve un arreglo con los elementos que tienen como <a href="http://es.wikipedia.org/wiki/Atributo" title="Atributo">atributo</a> className de la clase <a href="http://es.wikipedia.org/wiki/CSS" title="CSS">CSS</a>.</p>
+<p>&lt;div class=”familia” id=”luis”&gt;hola mundo!&lt;/div&gt; &lt;div
+class=”familia” id=”jose”&gt;hola mundo!&lt;/div&gt; &lt;div
+class=”jefe” id=”El Jefe”&gt;uno mas&lt;/div&gt; &lt;button
+onclick=”duh();” id=”padre”&gt;clic&lt;/button&gt; &lt;script&gt;
+function duh(){ var arrayNodosfamilia =
+document.getElementsByClassName(’familia’); arrayNodosFamilia.each(
+function(el, indice){ el.innerHTML = indice + ‘:’ + ‘divider ‘ + el.id;
+el.style.color = ‘blue’; }); } &lt;/script&gt;</p>
+<p><br></p>
+<hr>
+<p><a name="Funci.C3.B3n_.24.24.28.29" id="Funci.C3.B3n_.24.24.28.29"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=11" title="Editar sección: Función $$()">editar</a>]</span> <span class="mw-headline"><b>Función $$()</b></span></h4>
+<p>Es una mejora de la función document.getElementsByClassName(),
+recibe como parámetro un selector CSS y devuelve un array con cada
+elemento que cumpla con el criterio del selector dado, ejemplo.</p>
+<p><br>
+&lt;div id="ciudad"&gt; &lt;div class="familia"
+id="luis"&gt;&lt;p&gt;hola mundo!&lt;/p&gt;&lt;/div&gt; &lt;div
+class="familia" id="jose"&gt;&lt;p&gt;otro
+mensaje&lt;/p&gt;&lt;/div&gt; &lt;div class="jefe" id="El Jefe"&gt;uno
+mas&lt;/div&gt; &lt;/div&gt; &lt;button onclick="duh();"
+id="padre"&gt;clic&lt;/button&gt; &lt;div class="familia"
+id="hijo"&gt;&lt;p&gt;ay caramba!&lt;/p&gt;&lt;/div&gt; &lt;script&gt;
+function duh(){ var arrayNodosFamilia = $$('div#ciudad div.familia p');
+arrayNodosFamilia.each( function(el, indice){ el.innerHTML = indice +
+':' + 'divider ' + el.id; el.style.color = 'blue'; }); } &lt;/script&gt;</p>
+<p><br>
+Además podemos escribir nuestro código con menos líneas, por ejemplo</p>
+<p>&lt;script&gt; function duh(){ $$('div#ciudad div.familia p').each(
+function(el, indice){ el.innerHTML = indice + ':' + 'divider ' + el.id;
+el.style.color = 'blue'; }); } &lt;/script&gt;</p>
+<p><br></p>
+<hr>
+<p><a name="Funci.C3.B3n_Binding" id="Funci.C3.B3n_Binding"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=12" title="Editar sección: Función Binding">editar</a>]</span> <span class="mw-headline"><b>Función Binding</b></span></h4>
+<p><b>Prototype</b> también añade a la función objeto dos métodos <b>bind</b> y <b>bindAsEventListener</b>.
+Éstos son usados para asociar una función a un objeto particular de
+modo que la palabra clave apunte a ese objeto. Supongamos que:</p>
+<p><br>
+var myObject = new Object();</p>
+<p>myObject.message = "Hello!";</p>
+<p>myObject.eventHandler = function() {</p>
+<p>alert(this.message);</p>
+<p>}</p>
+<p>$("mydiv").onmouseover = myObject.eventHandler;</p>
+<p>Tradicionalmente, se conseguiría un error, porque, cuando el evento llama a la función <b>handler</b>, esta se refiere al elemento <b>mydiv</b>, y no a <b>myObject</b>, entonces <b>this.message</b> es indefinido. Se puede solucionar este problema con:</p>
+<p><br>
+$("mydiv").onmouseover = myObject.eventHandler.bind(myObject);</p>
+<p>Ahora funciona bien, porque la palabra clave se limita a <b>myObject</b>. Siguiendo esto, el <b>bindAsEventListener</b> hace lo mismo, aunque pasa el objeto del evento a través de su función de una manera compatible con el cross-browser.</p>
+<p><br></p>
+<hr>
+<p><a name="Trabajando_el_DOM" id="Trabajando_el_DOM"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=13" title="Editar sección: Trabajando el DOM">editar</a>]</span> <span class="mw-headline">Trabajando el DOM</span></h4>
+<p>Prototype tiene algunos objetos (Element, Insertion, Observer y Position) que permiten distintas formas de manipular el DOM.</p>
+<p><b>El Objeto <i>ELEMENT</i></b></p>
+<p>La mayor parte de los métodos de “Element” simplemente toman un ID o
+una referencia del objeto a Element que usted quiere manipular. Aquí
+tiene una mirada a algunos de los métodos más útiles:</p>
+<p>// Hides an element</p>
+<p>Element.hide(element)</p>
+<p>// Shows an element</p>
+<p>Element.show(element)</p>
+<p>// Adds a CSS class to the element</p>
+<p>Element.addClassName(element, "cssClassName")</p>
+<p>// Removes a CSS class from the element</p>
+<p>Element.removeClassName(element, "cssClassName")</p>
+<p>// Returns true if element has the CSS class</p>
+<p>Element.hasClassName(element, "cssClassName")</p>
+<p><b>El Objeto <i>INSERTION</i></b></p>
+<p>el objeto Insertion añade FRAGMENTOS de HTML en, y alrededor de, un
+Elemento. Hay 4 tipos de Insertion: Before (Antes), Alter (Después),
+Top (Cima) and Bottom (Inferior). Esto le muestra como añadiría algún
+HTML antes de un elemento con el ID "myelement":</p>
+<p>new Insertion.Before("myelement", "&lt;p&gt;I'm before!&lt;/p&gt;");</p>
+<p><b>El Objeto <i>POSITION</i></b></p>
+<p>El objeto Position puede indicar la posición en pantalla, y
+proporcionar información sobre la posición en relación con otros
+elementos de forma compatible con los navegadores. Esto debe ocupar la
+mayor parte del código complicado de animaciones, efectos y del código
+de drag-and-drop.</p>
+<p><br></p>
+<hr>
+<p><a name="Manejando_Formularios" id="Manejando_Formularios"></a></p>
+<h4><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=14" title="Editar sección: Manejando Formularios">editar</a>]</span> <span class="mw-headline">Manejando Formularios</span></h4>
+<p>Los objetos <a href="http://es.wikipedia.org/wiki/Form" title="Form">Form</a> y <a href="http://es.wikipedia.org/w/index.php?title=Field&amp;action=edit" class="new" title="Field">Field</a>
+prevén un número de funciones simples pero convenientes para trabajar
+con formularios y campos “input”, así como el código que soporta la
+puesta en práctica de <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a> con <strong class="selflink">Prototype</strong>.</p>
+<p><b>El objeto <a href="http://es.wikipedia.org/wiki/Form" title="Form">Form</a></b></p>
+<p>Generalmente, los métodos del objeto Form toman una <a href="http://es.wikipedia.org/w/index.php?title=ID&amp;action=edit" class="new" title="ID">ID</a> o una referencia del objeto a un elemento:</p>
+<p>// disables the form making all elements read only</p>
+<p>Form.disable(form)</p>
+<p>// enables a form again</p>
+<p>Form.enable(form)</p>
+<p>// clears values from all form elements</p>
+<p>Form.reset(form)</p>
+<p>// returns an array of all form fields in the form</p>
+<p>Form.getElements(form)</p>
+<p>// focuses on the first form field</p>
+<p>Form.focusFirstElement(form)</p>
+<p><br></p>
+<p><b>El objeto <a href="http://es.wikipedia.org/w/index.php?title=Field&amp;action=edit" class="new" title="Field">Field</a></b></p>
+<p>El objeto Field trata con elementos individuales del formulario y
+sus métodos típicamente toman un ID o una referencia del objeto a un
+elemento de un modo muy similar al objeto Form:</p>
+<p>// clears the field, will accept any number of arguments</p>
+<p>Field.clear(field)</p>
+<p>// returns true if all given fields have a value</p>
+<p>Field.clear(field, anotherField)</p>
+<p>// gives focus to the field</p>
+<p>Field.focus(field)</p>
+<p>// selects any text in the field</p>
+<p>Field.select(field)</p>
+<p><b>La Serialización del Formulario</b></p>
+<p><br>
+En términos de Prototype, serializar un formulario significa leer todos
+los elementos del formulario y convertirlos en un string URL-codificado
+similar a la que sería enviado si usted aceptara el formulario. Por
+ejemplo:</p>
+<p>&lt;form id="search" action="search.php" method="post"&gt;</p>
+<p>&lt;input type="text" name="query" value="thing" /&gt;</p>
+<p>&lt;select name="field"&gt;</p>
+<p>&lt;option value="artistname"&gt;Artist Name&lt;/option&gt;</p>
+<p>&lt;option value="title" selected="selected"&gt;Title&lt;/option&gt;</p>
+<p>&lt;/select&gt;</p>
+<p>&lt;input type="submit" name="submit" value="Search" /&gt;</p>
+<p>&lt;/form&gt;</p>
+<p>// query=thing&amp;field=title&amp;submit=Search</p>
+<p>Form.serialize($("search"))</p>
+<p>Note que Form.serialize ingeniosamente deja de lado las diferentes
+maneras en que los elementos del formulario son accesados, de modo que <b>inputs</b>, <b>selects</b>, <b>checkboxes</b> y los <b>radio buttons</b> son manejados correctamente. <b>Form.serialize</b> es útil para varias tareas, pero es el mejor cuando trabajamos con <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a>.</p>
+<p><b>Form Observers</b></p>
+<p><b>Form. Observer</b> y <b>Form.Element. Observer</b> permiten
+observar un formulario y enviar “callbacks” cuando los datos cambien.
+Éstos son actualmente dos versiones de cada “observer” que verifican el
+valor actualizado. El primero es un observador periódico, que trabaja
+así:</p>
+<p>new Form. Observer($("myform"), 1, myCallBackFunction);</p>
+<p>new Form.Element. Observer($("myfield"), 1, myCallBackFunction);</p>
+<p>Estos “observadores” comprueban cada segundo si los datos se han modificado y, si esto es así, llamará a myCallBackFunction.</p>
+<p>El segundo tipo de “observador” está basado en los eventos y sólo
+realizará la comprobación cuando se produzca la modificación o un
+clic-evento para los elementos. Ejemplo:</p>
+<p>new Form.EventObserver($("myform"), myCallBackFunction);</p>
+<p>new Form.Element.EventObserver($("myfield", myCallbackFunction);</p>
+<p>Si en todos los campos del formulario se colocan “observadores”,
+tendremos una manera mucho más eficiente de observar el formulario.
+Pero, si se quiere “observar” los cambios de elementos que no soportan
+estos eventos, se debe usar los observadores periódicos.</p>
+<p><br></p>
+<hr>
+<p>Es totalmente posible realizar estas funciones sin emplear
+PROTOTYPE, pero demandaría un gran esfuerzo y muchas líneas de código,
+en una palabra se intentaría <a href="http://es.wikipedia.org/wiki/Reinventar_la_rueda" title="Reinventar la rueda">reinventar la rueda</a>,
+"para que programar algo si ya existe", solamente hay que usarlo y
+aportar a la modificación do le que ya esta hecho. Por eso PROTOTYPE es
+un fremework una biblioteca lista para ser usada en un ambiente de
+producción.</p>
+<p>La web 2.0 ya es un hecho y PROTOTYPE está pensado para ello, para
+aprovechar al máximo la productividad y extender las fronteras de las
+web's ágiles, dinámicas y sencillas.</p>
+<p><br></p>
+<hr>
+<p><a name="PROTOTYPE_Vs..." id="PROTOTYPE_Vs..."></a></p>
+<h3><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=15" title="Editar sección: PROTOTYPE Vs...">editar</a>]</span> <span class="mw-headline">PROTOTYPE Vs...</span></h3>
+<p>Otra cosa que se me ocurriría es comparar a Prototype con otro
+framework, y la primera diferencia que encontraría es saber hacia donde
+apunta cada una. Supongamos que deseamos implementar <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a> en un proyecto basado en <a href="http://es.wikipedia.org/wiki/PHP" title="PHP">PHP</a>
+y decidimos emplear PROTOTYPE como framework. no estaría mal, de hecho
+se puede hacer, pero no sería recomendable dado que para <a href="http://es.wikipedia.org/wiki/PHP" title="PHP">PHP</a> existe otro framework más apropiado llamado <a href="http://es.wikipedia.org/w/index.php?title=XAJAX&amp;action=edit" class="new" title="XAJAX">XAJAX</a>. En cambio si se desarrolla con Ruby de una la opción es Prototype el cual ya viene integrado en Ruby.</p>
+<p>Es difícil compararlos a todos, lo que si es que todos proveen de un
+mejor servicio tanto para el cliente y una manera de producir más
+rápida para el desarrollador. Cuando <a href="http://es.wikipedia.org/wiki/Adobe_Flash" title="Adobe Flash">FLASH</a> parecia "copar" el mercado de las aplicaciones web hoy <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a> se lleva el premio todas apuentan a implementar esta Técnica.</p>
+<p>Una experiencia reciente. "Estaba rindiendo el examen en la página
+de microsoft para desarrollador 5 estrellas, y por cada pregunta, que
+ocupa un porcentaje reducido de la pantalla, se actualizaba la página
+completa, con lo que se pierden valiosos segundos entre pregunta y
+pregunta. Haber si los amigos de Microsoft le dan un retoque con <a href="http://es.wikipedia.org/w/index.php?title=ATLAS&amp;action=edit" class="new" title="ATLAS">ATLAS</a>, así como lo hicieron con Windows Live Mail".</p>
+<p><br></p>
+<hr>
+<p><a name="PROYECTOS_BASADOS_EN_PROTOTYPE" id="PROYECTOS_BASADOS_EN_PROTOTYPE"></a></p>
+<h3><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=16" title="Editar sección: PROYECTOS BASADOS EN PROTOTYPE">editar</a>]</span> <span class="mw-headline">PROYECTOS BASADOS EN PROTOTYPE</span></h3>
+<p>• Ruby on Rails (<a href="http://www.rubyonrails.com/" class="external free" title="http://www.rubyonrails.com/" rel="nofollow">http://www.rubyonrails.com/</a> )</p>
+<p>• script.aculo.us , Thomas Fuchs (<a href="http://script.aculo.us/" class="external free" title="http://script.aculo.us/" rel="nofollow">http://script.aculo.us/</a>)</p>
+<p>Usando Prototype como base, <a href="http://script.aculo.us/" class="external free" title="http://script.aculo.us" rel="nofollow">http://script.aculo.us</a>
+se especializa en suministrar una rica experiencia al usuario con
+efectos animados, de arrastrar y soltar (drag and drop) y los
+componentes poderosos UI. Hay un buen Wiki <a href="http://es.wikipedia.org/wiki/Script.aculo.us" title="Script.aculo.us">script.aculo.us</a> sobre el sitio, con un rápido crecimiento de documentación de calidad para ayudarle ha comenzar y páginas de ejemplos</p>
+<p>• Rico (<a href="http://openrico.org/" class="external free" title="http://openrico.org/" rel="nofollow">http://openrico.org/</a>)</p>
+<p>• Behaviour (<a href="http://www.ripcord.co.nz/behaviour/" class="external free" title="http://www.ripcord.co.nz/behaviour/" rel="nofollow">http://www.ripcord.co.nz/behaviour/</a>)</p>
+<p><br></p>
+<hr>
+<p><a name="ALTERNATIVAS_QUE_EMPLEAN_AJAX" id="ALTERNATIVAS_QUE_EMPLEAN_AJAX"></a></p>
+<h2><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=17" title="Editar sección: ALTERNATIVAS QUE EMPLEAN AJAX">editar</a>]</span> <span class="mw-headline">ALTERNATIVAS QUE EMPLEAN AJAX</span></h2>
+<p><b>DOJO Toolkit (<a href="http://dojotoolkit.org/" class="external free" title="http://dojotoolkit.org/" rel="nofollow">http://dojotoolkit.org/</a>)</b></p>
+<p>• Biblioteca JavaScript de código abierto</p>
+<p>• Proporciona un API para el control y manipulación de historial</p>
+<p>• Proporciona en el lado del cliente para la manipulación de URL y marcadores/ favoritos</p>
+<p>• Widgets</p>
+<p>• Ordenar tablas</p>
+<p>• Validación de formularios</p>
+<p>• Menus y barras de menús</p>
+<p>• Google y Yahoo! Maps</p>
+<p><b>XAJAX (<a href="http://www.xajaxproject.org/" class="external free" title="http://www.xajaxproject.org/" rel="nofollow">http://www.xajaxproject.org/</a>)</b></p>
+<p>• Es una biblioteca PHP de código abierto</p>
+<p>• Abundante documentación</p>
+<p>• Fácil de utilizar:</p>
+<p>• No requiere gran conocimiento de JavaScript</p>
+<p>• Sencillo de emplear:</p>
+<p>• Incluir biblioteca en página PHP</p>
+<p>• Instanciar el objeto ‘xajax’</p>
+<p>• Implementación de nuevas funciones en PHP</p>
+<p><b>XOAD (<a href="http://www.xoad.org/" class="external free" title="http://www.xoad.org/" rel="nofollow">http://www.xoad.org/</a> , antes NAJAX)</b></p>
+<p>• Biblioteca orientada a objetos basada en PHP</p>
+<p>• Documentación de las clases y tutoriales sencillos</p>
+<p>• Emplea JSON y objetos PHP para la comunicación</p>
+<p>• Soporta eventos del lado del cliente y del servidor</p>
+<p><br></p>
+<hr>
+<p><a name="CONCLUSI.C3.93N" id="CONCLUSI.C3.93N"></a></p>
+<h2><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=18" title="Editar sección: CONCLUSIÓN">editar</a>]</span> <span class="mw-headline">CONCLUSIÓN</span></h2>
+<p>PROTOTYPE es un framework más que implementa AJAX, si se lo compara
+con otro puede ganar o perder, pero esta un paso adelante del resto en
+lo que respecta al desarrollo de páginas ágiles e interactiva. El mundo
+cambio y hace uso de las bondades de la WEB 2.0, PROTOTYPE brinda su
+aporte a este auge, para lograr mejores servicios a menor costo de
+desarrollo.</p>
+<p>Con la introducción de <a href="http://es.wikipedia.org/wiki/AJAX" title="AJAX">AJAX</a> en aplicaciones Web el manejo del objeto <a href="http://es.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a> se hace simple. En una secuencia en donde el usuario interactúa con la Web y provoca una petición, se crea un objeto <a href="http://es.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a>,
+luego este objeto realiza una llamada al servidor solicitando el
+evento. la petición se procesa en el servidor y devuelve un resultado
+en formato XML, o texto plano, o JavaScript, etc. que contienen el
+resultado de la petición. Luego el objeto XMLHttpRequest hace un
+llamado a la función callback() para procesar el resultado y por ultimo
+se actualiza el DOM (Document Object Model) con el resultado devuelto.</p>
+<p>De esta manera Ajax permite lograr páginas rápidas y ágiles brindado un servicio mejor al usuario.</p>
+<p><a name="Enlaces_externos" id="Enlaces_externos"></a></p>
+<h2><span class="editsection">[<a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit&amp;section=19" title="Editar sección: Enlaces externos">editar</a>]</span> <span class="mw-headline">Enlaces externos</span></h2>
+<ul>
+<li><a href="http://prototype.conio.net/" class="external free" title="http://prototype.conio.net" rel="nofollow">http://prototype.conio.net</a></li>
+<li><a href="http://www.tufuncion.com/prototype_I" class="external text" title="http://www.tufuncion.com/prototype_I" rel="nofollow">Prototype Window Class</a></li>
+</ul>
+<ul>
+<li><a href="http://script.aculo.us/" class="external free" title="http://script.aculo.us" rel="nofollow">http://script.aculo.us</a></li>
+</ul>
+<ul>
+<li><a href="http://www.ajaxian.com/" class="external free" title="http://www.ajaxian.com" rel="nofollow">http://www.ajaxian.com</a></li>
+</ul>
+<ul>
+<li><a href="http://particletree.com/" class="external free" title="http://particletree.com" rel="nofollow">http://particletree.com</a></li>
+</ul>
+<ul>
+<li><a href="http://www.json.org/" class="external free" title="http://www.json.org" rel="nofollow">http://www.json.org</a></li>
+</ul>
+<ul>
+<li><a href="http://ajaxload.info/" class="external free" title="http://ajaxload.info" rel="nofollow">http://ajaxload.info</a></li>
+</ul>
+<ul>
+<li><a href="http://www.sergiopereira.com/articles/prototype.js.html" class="external free" title="http://www.sergiopereira.com/articles/prototype.js.html" rel="nofollow">http://www.sergiopereira.com/articles/prototype.js.html</a></li>
+</ul>
+<ul>
+<li><a href="http://www.ajaxhispano.com/" class="external free" title="http://www.ajaxhispano.com/" rel="nofollow">http://www.ajaxhispano.com/</a></li>
+</ul>
+<ul>
+<li><a href="http://tetlaw.id.au/view/blog/really-easy-field-validation-with-prototype/" class="external free" title="http://tetlaw.id.au/view/blog/really-easy-field-validation-with-prototype/" rel="nofollow">http://tetlaw.id.au/view/blog/really-easy-field-validation-with-prototype/</a> Como Validar Un Formulario</li>
+</ul>
+
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:393639-0!1!0!!es!2 and timestamp 20070409115923 -->
+<div class="printfooter">
+Obtenido de "<a href="http://es.wikipedia.org/wiki/Prototype">http://es.wikipedia.org/wiki/Prototype</a>"</div>
+			<div id="catlinks"><p class="catlinks"><a href="http://es.wikipedia.org/wiki/Especial:Categories" title="Especial:Categories">Categoría</a>: <span dir="ltr"><a href="http://es.wikipedia.org/wiki/Categor%C3%ADa:Ingenier%C3%ADa_de_software" title="Categoría:Ingeniería de software">Ingeniería de software</a></span></p></div>			<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Vistas</h5>
+		<div class="pBody">
+			<ul>
+					 <li id="ca-nstab-main" class="selected"><a href="http://es.wikipedia.org/wiki/Prototype" title="Ver el artículo [alt-shift-c]" accesskey="c">Artículo</a></li>
+					 <li id="ca-talk" class="new"><a href="http://es.wikipedia.org/w/index.php?title=Discusi%C3%B3n:Prototype&amp;action=edit" title="Discusión acerca del artículo [alt-shift-t]" accesskey="t">Discusión</a></li>
+					 <li id="ca-edit"><a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=edit" title="Puedes editar esta página. Por favor, usa el botón de previsualización antes de grabar. [alt-shift-e]" accesskey="e">Editar</a></li>
+					 <li id="ca-history"><a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;action=history" title="Versiones anteriores de esta página y sus autores [alt-shift-h]" accesskey="h">Historial</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Herramientas personales</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="http://es.wikipedia.org/w/index.php?title=Especial:Userlogin&amp;returnto=Prototype" title="Te animamos a registrarte antes de editar, aunque no es obligatorio [alt-shift-o]" accesskey="o">Registrarse/Entrar</a></li>
+			</ul>
+		</div>
+	</div>
+	<div title="Portada" class="portlet" id="p-logo">
+		<a style="background-image: url(http://upload.wikimedia.org/wikipedia/es/b/bc/Wiki.png);" href="http://es.wikipedia.org/wiki/Portada" title="Visitar la Portada [alt-shift-z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class="portlet" id="p-navigation">
+		<h5>Navegación</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-mainpage"><a href="http://es.wikipedia.org/wiki/Portada" title="Visitar la Portada [alt-shift-z]" accesskey="z">Portada</a></li>
+				<li title="Acerca del proyecto, qué puedes hacer, dónde encontrar información" id="n-portal"><a href="http://es.wikipedia.org/wiki/Portal:Comunidad" title="Acerca del proyecto, qué puedes hacer, dónde encontrar información">Portal de la comunidad</a></li>
+				<li title="Información de contexto sobre acontecimientos actuales" id="n-currentevents"><a href="http://es.wikipedia.org/wiki/Portal:Actualidad" title="Información de contexto sobre acontecimientos actuales">Actualidad</a></li>
+				<li id="n-recentchanges"><a href="http://es.wikipedia.org/wiki/Especial:Recentchanges" title="La lista de cambios recientes en el wiki [alt-shift-r]" accesskey="r">Cambios recientes</a></li>
+				<li id="n-randompage"><a href="http://es.wikipedia.org/wiki/Especial:Random" title="Cargar una página aleatoriamente [alt-shift-x]" accesskey="x">Página aleatoria</a></li>
+				<li title="El lugar para aprender" id="n-help"><a href="http://es.wikipedia.org/wiki/Ayuda:Contenidos" title="El lugar para aprender">Ayuda</a></li>
+				<li title="Respáldanos" id="n-sitesupport"><a href="http://wikimediafoundation.org/wiki/Donaciones" title="Respáldanos">Donativos</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Buscar</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/wiki/Especial:Search" id="searchform"><div>
+				<input id="searchInput" name="search" title="Buscar en este wiki [alt-shift-f]" accesskey="f" value="" type="text">
+				<input name="go" class="searchButton" id="searchGoButton" value="Ir" type="submit">&nbsp;
+				<input name="fulltext" class="searchButton" id="mw-searchButton" value="Buscar" type="submit">
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Herramientas</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="http://es.wikipedia.org/wiki/Especial:Whatlinkshere/Prototype" title="Lista de todas las páginas del wiki que enlazan con ésta [alt-shift-j]" accesskey="j">Lo que enlaza aquí</a></li>
+				<li id="t-recentchangeslinked"><a href="http://es.wikipedia.org/wiki/Especial:Recentchangeslinked/Prototype" title="Cambios recientes en las páginas que enlazan con esta otra [alt-shift-k]" accesskey="k">Cambios en enlazadas</a></li>
+<li id="t-upload"><a href="http://commons.wikimedia.org/wiki/Special:Upload?uselang=es" title="Subir imágenes o archivos multimedia [alt-shift-u]" accesskey="u">Subir archivo</a></li>
+<li id="t-specialpages"><a href="http://es.wikipedia.org/wiki/Especial:Specialpages" title="Lista de todas las páginas especiales [alt-shift-q]" accesskey="q">Páginas especiales</a></li>
+				<li id="t-print"><a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;printable=yes">Versión para imprimir</a></li>				<li id="t-permalink"><a href="http://es.wikipedia.org/w/index.php?title=Prototype&amp;oldid=7939057">Enlace permanente</a></li><li id="t-cite"><a href="http://es.wikipedia.org/w/index.php?title=Especial:Cite&amp;page=Prototype&amp;id=7939057">Citar este artículo</a></li>			</ul>
+		</div>
+	</div>
+	<div id="p-lang" class="portlet">
+		<h5>Otros idiomas</h5>
+		<div class="pBody">
+			<ul>
+				<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Prototype">Deutsch</a></li>
+				<li class="interwiki-en"><a href="http://en.wikipedia.org/wiki/Prototype_JavaScript_Framework">English</a></li>
+				<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Prototype">Português</a></li>
+			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="Prototype_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki"></a></div>
+				<div id="f-copyrightico"><a href="http://wikimediafoundation.org/"><img src="Prototype_files/wikimedia-button.png" alt="Wikimedia Foundation" border="0"></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> Esta página fue modificada por última vez el 00:47, 4 abr 2007.</li>
+				<li id="copyright">Contenido disponible bajo los términos de la <a class="internal" href="http://es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_de_documentaci%C3%B3n_libre_de_GNU">Licencia de documentación libre de GNU</a> (véase <b><a class="internal" href="http://es.wikipedia.org/wiki/Wikipedia:Derechos_de_autor">Derechos de autor</a></b>).<br>
+Wikipedia® es una marca registrada de la organización sin ánimo de lucro <a class="internal" href="http://wikimediafoundation.org/wiki/Portada">Wikimedia Foundation, Inc.</a><br></li>
+				<li id="privacy"><a href="http://wikimediafoundation.org/wiki/Pol%C3%ADtica_de_privacidad" title="wikimedia:Política de privacidad">Política de privacidad</a></li>
+				<li id="about"><a href="http://es.wikipedia.org/wiki/Wikipedia:Acerca_de" title="Wikipedia:Acerca de">Acerca de Wikipedia</a></li>
+				<li id="disclaimer"><a href="http://es.wikipedia.org/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad" title="Wikipedia:Limitación general de responsabilidad">Aviso legal</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by srv14 in 0.058 secs. --></body></html>
